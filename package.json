@@ -4,7 +4,9 @@
   "description": "Trabajar con asincronismo en Javascript",
   "main": "src/index.js",
   "scripts": {
-    "callback": "node src/callback/index.js"
+    "callback": "node src/callback/index.js",
+    "callback:api": "node src/callback/peticionAPI.js",
+    "promesas": "node src/promesas/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/AdrianLovo/Apuntes_Asincronismo_con_JavaScript/issues"
   },
-  "homepage": "https://github.com/AdrianLovo/Apuntes_Asincronismo_con_JavaScript#readme"
+  "homepage": "https://github.com/AdrianLovo/Apuntes_Asincronismo_con_JavaScript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
